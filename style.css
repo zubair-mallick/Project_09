@@ -1,0 +1,95 @@
+@font-face {
+    font-family: hello;
+    src: url(pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hello;
+    color: white;
+    background-color: black;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+nav{
+    position: fixed;
+    background-color: red;
+    display: flex;
+    align-items: flex-start;
+    height: 12vh;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;
+    background-color: #111;
+    z-index: 10;
+
+}
+nav button{
+    background-color: #0BA34E;
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    font-size: 0.85vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    
+}
+nav button svg {
+    height: 1.2vw;
+    margin-left: 1.6vw;
+    background-color: #0DA34E;
+}
+.page1{
+ height: 100vh;
+ width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.page1 h1{
+    font-size: 8vw;
+    font-weight: 900;
+    line-height: 8.5vw;
+}
+.page1 h1 span svg{
+ height:6vw;
+ width: 6vw;
+ background-color: #0DA34E;
+ border-radius: 50%;
+}
+
+
+.page1 p{
+    font-size: 1.2vw;
+    font-weight: 300;
+ 
+}
+
+.page1 .bot{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.page1 .bot p {
+    padding: 0.35vw 0.35vw;
+    border:1px solid white;
+    border-radius: 50px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-top: 0.5vw;
+}
+
+.page1 .bot p:nth-last-child(2){
+    border: none;
+}
