@@ -42,4 +42,4 @@ nav.addEventListener('mouseleave',function(){
 })
 
 }
-navAnimation()
+// navAnimation()

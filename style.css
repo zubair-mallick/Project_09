@@ -179,5 +179,79 @@ justify-content: center;
 .page2{
     height: 100vh;
     width: 100%;
+    position: relative;
+    padding: 0vw 5vw;
+    padding-bottom: 8vw;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #333;
+    justify-content: space-between;
    
+}
+.page-2-left{
+      height: 100%;
+      width: 50%;
+      /* background-color: green; */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      position: relative;
+      
+}
+.kg-top{
+    height: 30%;
+    width: 50%;
+    padding: 4vw 1.5vw;
+    
+}
+.kg-top h5{
+    font-size: 1vw;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+.kg-bot h5{
+    font-size: 1vw;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+.kg-bot{
+    height: 30%;
+    width:70%;
+   padding-left: 1.5vw;
+    position: relative;
+    bottom: 0;
+
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+
+}
+.page-2-right{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+.page-2-right .f1{
+    height: 25%;
+    width: 100%;
+    background-color: #0BA34E;
+}
+.page-2-right .f2{
+    height: 25%;
+    width: 100%;
+    background-color: red;
+}
+.page-2-right .f3{
+    height: 25%;
+    width: 100%;
+    background-color: yellow;
+}
+.page-2-right .f4{
+    height: 25%;
+    width: 100%;
+    background-color: orange;
 }
