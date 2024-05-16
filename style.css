@@ -93,7 +93,7 @@ nav button svg {
     background-color: #111;
     z-index: 9;
     border-bottom: 1px solid #fff;
-    margin-top: 2vw;
+    padding-top: 2vw;
 }
 
 .page1{
@@ -231,27 +231,122 @@ justify-content: center;
 .page-2-right{
     height: 100%;
     width: 50%;
-
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 .page-2-right .f1{
     height: 25%;
     width: 100%;
-    background-color: #0BA34E;
+    border-bottom: solid 1px white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 1.3vw;
+
 }
 .page-2-right .f2{
     height: 25%;
     width: 100%;
-    background-color: red;
+    border-bottom: solid 1px white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 1.3vw;
+
 }
 .page-2-right .f3{
     height: 25%;
     width: 100%;
-    background-color: yellow;
+    border-bottom: solid 1px white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 1.3vw;
 }
 .page-2-right .f4{
     height: 25%;
     width: 100%;
-    background-color: orange;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 1.3vw;
+}
+.page-2-right .f1 .f1-left h2{
+    font-size: 1.5vw;
+    font-weight: 280;
+}
+.f1 .f1-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5vw;
+}
+
+.f1 .f1-right .l{
+    font-size: 0.9vw;
+    font-weight: 100;
+}
+.page-2-right .f2 .f2-left h2{
+    font-size: 1.5vw;
+    font-weight: 280;
+}
+.f2 .f2-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5vw;
+}
+
+.f2 .f2-right .l{
+    font-size: 0.9vw;
+    font-weight: 100;
+}
+.page-2-right .f3 .f3-left h2{
+    font-size: 1.5vw;
+    font-weight: 280;
+}
+.f3 .f3-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5vw;
+}
+
+.f3 .f3-right .l{
+    font-size: 0.9vw;
+    font-weight: 100;
+    color: #333;
+}
+.page-2-right .f4 .f4-left h2{
+    font-size: 1.5vw;
+    font-weight: 280;
+}
+.f4 .f4-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5vw;
+}
+
+.f4 .f4-right .l{
+    font-size: 0.9vw;
+    font-weight: 100;
+}
+/* .f2 img{
+    display: none;
+} */
+
+#right-elem img{
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    scale:0;
+    /* display: none ; */
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.5;
 }
