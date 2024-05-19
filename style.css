@@ -413,10 +413,7 @@ justify-content: center;
     z-index: 99999;
 }
 
-.page5{
-    height: 100vh;
-    width: 100%;
-}
+
 .page4{
     height: 100vh;
     width: 100%;
@@ -485,3 +482,121 @@ justify-content: center;
     font-weight: 100;
     line-height: 1.2;
 }
+.page6{
+    height: 100vh;
+    width: 100%;
+}
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #111;
+    display: flex;
+    flex-direction:column ;
+    padding: 1.5vw 5.5vw;
+    gap: 15px;
+}
+.page5 .top {
+    height: 50%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.page5 .top .one{
+    height: 100%;
+    width: 33%;
+    background-color: #F5F5F5;
+    color: #000000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.page5 .top .one .one-top{
+    height: 70%;
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #000000;
+   
+  
+}
+.page5 .top .one .one-top h1{
+    background-color: #F5F5F5;
+    color: #000000;
+    font-size: 5vw;
+    font-weight: 100;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+.page5 .top .one .one-top h6{
+    background-color: #F5F5F5;
+    color: #000000;
+    font-size: 0.9vw;
+    font-weight: 100;
+    padding-left: 2vw;
+
+}
+.page5 .top .one .one-bot {
+    background-color: #F5F5F5;
+    color: #A9A9A9;
+    font-size: 0.9vw;
+    font-weight: 100;
+    padding-left: 2vw;
+    padding-bottom: 1.5vw;
+} 
+.page5 .bot {
+    height: 50%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.page5 .bot .one{
+    height: 100%;
+    width: 33%;
+    background-color: #F5F5F5;
+    color: #000000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.page5 .bot .one .one-top{
+    height: 70%;
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #000000;
+   
+  
+}
+.page5 .bot .one .one-top h1{
+    background-color: #F5F5F5;
+    color: #000000;
+    font-size: 5vw;
+    font-weight: 100;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+.page5 .bot .one .one-top h6{
+    background-color: #F5F5F5;
+    color: #000000;
+    font-size: 0.9vw;
+    font-weight: 100;
+    padding-left: 2vw;
+
+}
+.page5 .bot .one .one-bot {
+    background-color: #F5F5F5;
+    color: #A9A9A9;
+    font-size: 0.9vw;
+    font-weight: 100;
+    padding-left: 2vw;
+    padding-bottom: 1.5vw;
+} 
