@@ -50,10 +50,7 @@ function page2Animation(){
 
 rightElems.forEach(function(elem) {
     elem.addEventListener("mouseenter", function () {
-
-
-
-
+         console.log(elem.getBoundingClientRect())
         gsap.to(elem.childNodes[3], {
           opacity:1,
             scale: 1
@@ -63,7 +60,7 @@ rightElems.forEach(function(elem) {
 
         gsap.to(elem.childNodes[3], {
             x: dets.x - elem.getBoundingClientRect().x - 90,
-            y: dets.y - elem.getBoundingClientRect().y - 215
+            y: dets.y - elem.getBoundingClientRect().y - 100
         })
     })
 
