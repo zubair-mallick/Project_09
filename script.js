@@ -96,5 +96,5 @@ function page3Animation() {
 
 }
 page3Animation(); 
-// navAnimation()
+// navAnimation();
 page2Animation();
