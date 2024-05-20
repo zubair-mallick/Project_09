@@ -95,6 +95,14 @@ function page3Animation() {
     })
 
 }
+
+
 page3Animation(); 
 // navAnimation();
 page2Animation();
+
+var a = document.querySelector(".part2 vedio")
+
+a.addEventListener("click", function () {
+    a.computedStyleMap.vedio.play()
+})
