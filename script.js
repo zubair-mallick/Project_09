@@ -101,8 +101,17 @@ page3Animation();
 // navAnimation();
 page2Animation();
 
-var a = document.querySelector(".part2 vedio")
-
-a.addEventListener("click", function () {
-    a.computedStyleMap.vedio.play()
+var sections = document.querySelectorAll(".part2")
+sections.forEach(function (elem) {
+    elem.addEventListener("mouseenter", function () {
+        elem.childNodes[3].style.opacity = 1
+        elem.childNodes[3].play()
+    })
+    elem.addEventListener("mouseleave", function () {
+        elem.childNodes[3].style.opacity = 0
+        elem.childNodes[3].load()
+    })
 })
+
+
+
