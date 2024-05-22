@@ -710,25 +710,143 @@ justify-content: center;
     width: 100%;
     display: flex;
     padding: 2vw 2vw;
+    padding-top: 4vw;
+    margin-top: 2vw;
 }
 .page8 .eleft{
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
     width: 27%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .eleft button{
-    padding: 1vw 1vw;
+    padding: 1vw 5vw;
     border-radius: 50px;
     text-transform: uppercase;
     background-color: #0BA34E;
+    font-size: 1.2vw;
+    font-weight: 400;
 
 }
 .page8 .eright{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100%;
     width: 72%;
 }
 .page8 .eright span{
     width: 15vw;
     display: inline-block;
+}
+.page8 .eright>p{
+    font-size: 2vw;
+    border-bottom: 2px solid white;
+    padding-bottom: 5vw;
+    margin-right: 2vw;
+}
+.page8-cont .uiUx h1{
+    font-size: 3.7vw;
+    padding-top: 1.2vw;
+ padding-bottom: 2vw;
+font-weight: 400;
+letter-spacing: -0.9;
+
+}
+.buttonss{
+    display: flex;
+    align-items: center;
+   
+    gap: 1vw;
+    margin-bottom: 4vw;
+}
+.buttonss h4{
+    border: 1px white solid;
+    font-size: 1vw;
+    font-weight: 200;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 0.4vw 1.3vw;
+   
+}
+
+.page5-elem{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* margin-top: 4vw; */
+    border-top: solid 0.8px #222;
+  
+    /* padding-top: 2vw; */
+    position: relative;
+    overflow: hidden;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.page5-elem h3{
+    font-size: 1.7vw;
+    font-weight: 400;
+    z-index: 5;
+    padding: 1vw 0vw;
+    padding-bottom: 3vw;
+      position: relative;
+      background-color: transparent;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    
+}
+.page5-elem p{
+    font-size: 0.8;
+    z-index: 5;
+    font-weight: 100;
+    padding: 1vw 0vw;
+    padding-bottom: 3vw;
+    position: relative;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    background-color: transparent;
+}
+.page5-elem .over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    top: -100%;
+    opacity: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    /* z-index: 20; */
+}
+.page5-elem i{
+    z-index: 5;
+    padding: 1vw 0vw;
+    padding-bottom: 3vw;
+    position: relative;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    background-color: transparent;
+}
+
+.page5-elem:hover .over {
+    /* background-color: transparent; */
+    top: 0;
+    opacity: 1;
+  
+}
+.page5-elem:hover h3{
+
+    padding-left: 1.5vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.page5-elem:hover i{
+ 
+    padding-right: 1.5vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.page5-elem:hover p{
+
+    /* padding-left: 1.5vw; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.page5-elem:hover {
+    border-top: 2.5px solid #fff;
+}
+.page5-elem:nth-last-child(1){
+    border-bottom: 0.8px solid #222;
 }
