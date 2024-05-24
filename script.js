@@ -101,8 +101,23 @@ page3Animation();
 // navAnimation();
 page2Animation();
 
-var sections = document.querySelectorAll(".part2")
+videoShower();
+function videoShower(){
+    var sections = document.querySelectorAll(".part2")
 sections.forEach(function (elem) {
+    elem.addEventListener("mouseenter", function () {
+        elem.childNodes[3].style.opacity = 1
+        elem.childNodes[3].play()
+    })
+    elem.addEventListener("mouseleave", function () {
+        elem.childNodes[3].style.opacity = 0
+        elem.childNodes[3].load()
+    })
+})
+}
+
+var sections1 = document.querySelectorAll(".right-first .part3")
+sections1.forEach(function (elem) {
     elem.addEventListener("mouseenter", function () {
         elem.childNodes[3].style.opacity = 1
         elem.childNodes[3].play()
