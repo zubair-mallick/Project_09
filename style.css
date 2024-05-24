@@ -28,12 +28,14 @@ nav {
     width: 100%;
     padding: 2vw 10.4vw;
     justify-content: space-between;
-    background-color: #111;
+    background-color: #111111;
     z-index: 10;
 }
+nav
 
 nav h1 {
     font-size: 1.6vw;
+      background-color: #111111;;
 }
 
 .nav-part2 {
@@ -43,13 +45,23 @@ nav h1 {
     padding: 1vh 0;
     position: relative;
     z-index: 10;
+    background-color: #111111;
 }
-
+.nav-elem{
+ background-color:   #111111;;
+}
+.nav-elem h4{
+ background-color:   #111111;;
+}
+.nav-elem h5{
+ background-color:   #111111;;
+}
 .nav-part2 h4 {
     font-size: 0.73vw;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 0.6vw;
+    background-color: #111111;
 }
 
 .nav-part2 h5 {
@@ -57,6 +69,7 @@ nav h1 {
     /* background-color: red; */
     display: none;
     overflow: hidden;
+
 }
 
 .nav-part2 h5 span {
@@ -674,6 +687,82 @@ justify-content: center;
     opacity: 0;
     transition: opacity ease 0.1s;
 }
+.page6-after{
+    height: 110vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 1.5vw 5vw;
+    padding-top: 4vw;
+   
+}
+.page6-after .left{
+    height:100% ;
+    width: 30%;
+    background-color: #FFFFFF;
+    
+}
+.page6-after .right{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 73%;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+.page6-after .right-first{
+    height: 100%;
+    width: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+   
+    gap: 15px;
+}
+.page6-after .right-first img{
+    height: 18vw;
+    width: 100%;
+    object-fit: cover;
+
+}
+.page6-after .right-first h5{
+    font-size:2.5vw;
+    font-weight: 100;
+    padding: 1vw 0.5vw;
+    background-color: #FFFFFF;
+    color: #161616;
+    position: relative;
+  
+ 
+
+}
+.page6-after .right-first i{
+    font-size: 1.5vw;
+    color: #000;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 35%;
+    padding-left: 1.5vw;
+
+
+}
+.page6-after .right-first p{
+    font-size: 1.2vw;
+    font-weight: 100;
+    padding: 3.5vw 0.5vw;
+    background-color: #FFFFFF;
+    color: #161616;
+}
+.page6-after .right-second{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px; */
+}
 
 
 .page7{
@@ -699,41 +788,57 @@ justify-content: center;
 
    
 }
-.page9{
-    background-color: #000;
-    height: 100vh;
-    width: 100%;
-}
+
 .page8{
     background-color:black;
     min-height: 100vh;
-    width: 100%;
+    width: 95%;
     display: flex;
     padding: 2vw 2vw;
     padding-top: 4vw;
     margin-top: 2vw;
+    margin-bottom: 12VW;
+    border-bottom: 1PX solid white;
+    padding-bottom: 10vw;
+    margin: 0 2vw;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-between;
+    
 }
-.page8 .eleft{
-    /* background-color: red; */
+/* .page8 .eleft{
+    
     height: 100%;
     width: 27%;
    display: flex;
    align-items: center;
    justify-content: center;
-}
-.eleft button{
-    padding: 1vw 5vw;
-    border-radius: 50px;
-    text-transform: uppercase;
-    background-color: #0BA34E;
-    font-size: 1.2vw;
-    font-weight: 400;
+} */
 
+.page8 button{
+    background-color: #0BA34E;
+    padding: 1vw 3.5vw;
+    font-weight: 400;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    position: sticky;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+    text-transform: uppercase;
+   
+}
+.page8 button i{
+    font-size: 1.2vw;
+    color: #fff;
+    background-color: #0BA34E;
 }
 .page8 .eright{
     /* background-color: aqua; */
     height: 100%;
-    width: 72%;
+    width: 70%;
 }
 .page8 .eright span{
     width: 15vw;
@@ -746,6 +851,14 @@ justify-content: center;
     margin-right: 2vw;
 }
 .page8-cont .uiUx h1{
+    font-size: 3.7vw;
+    padding-top: 1.2vw;
+ padding-bottom: 2vw;
+font-weight: 400;
+letter-spacing: -0.9;
+
+}
+.page8-cont .uiUx2 h1{
     font-size: 3.7vw;
     padding-top: 1.2vw;
  padding-bottom: 2vw;
@@ -849,4 +962,113 @@ letter-spacing: -0.9;
 }
 .page5-elem:nth-last-child(1){
     border-bottom: 0.8px solid #222;
+}
+summary::marker {
+    content: "";
+}
+.containerOf{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.containerOf .second{
+    padding: 1.3vw 1vw;
+    padding-right:2.1vw ;
+}
+.containerOf .second i{
+    font-size: 2vw;
+}
+details::marker {
+    transition: all cubic-bezier(0.19, 1, 0);
+}
+.page8-cont .uiUx2{
+    border-top: 2px solid #fff;
+    margin-right: 1.6vw;
+}
+.uiUx2 .containerOf .second{
+    padding: 1.3vw 1vw;
+    padding-right:0;
+}
+.page9-mini{
+    min-height: 55vh;
+    width: 100%;
+    background-color: #FFFFFF;
+   
+   
+
+
+}
+.page9-mini h1{
+    color: #000;
+    background-color: #FFFFFF;
+    font-size: 6vw;
+    font-weight: 600;
+    padding-top: 5vw;
+    padding-left: 30vw;
+    line-height: 7vw;
+    letter-spacing: 0.9px;
+   
+   
+}
+.page9{
+  
+    width: 100%;
+    /* background-color: #111; */
+    background-color: #fff;
+    padding: 10vh 10vw;
+    display: flex;
+    align-items: start;
+    gap: 5vw;
+    border-top: 0.2px solid #000;
+
+    
+
+}
+.page9 button{
+    background-color: #4f5bff;
+    width: 17vw;
+    height: 4vw;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: sticky;
+    top: 15%;
+ 
+}
+.page9 button h4{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1vw;
+     background-color: #4f5bff;
+}
+.page9 button h4 i{
+    font-size: 1.1vw;
+    font-weight: 100;
+    margin-left: 0.5vw;
+    background-color: #4f5bff;
+}
+.page9 .right{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+    flex-direction: column;
+}
+.page9 .right p{
+    font-size: 1.8vw;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+    color: #000;
+    background-color: #FFFFFF;
+    line-height: 1.8vw;
+}
+.page10{
+    height: 100vh;
+    width: 100%;
+    background-color: FFFFF;
 }
