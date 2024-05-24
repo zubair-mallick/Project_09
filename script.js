@@ -101,8 +101,8 @@ page3Animation();
 // navAnimation();
 page2Animation();
 
-videoShower();
-function videoShower(){
+
+
     var sections = document.querySelectorAll(".part2")
 sections.forEach(function (elem) {
     elem.addEventListener("mouseenter", function () {
@@ -114,7 +114,7 @@ sections.forEach(function (elem) {
         elem.childNodes[3].load()
     })
 })
-}
+
 
 var sections1 = document.querySelectorAll(".right-first .part3")
 sections1.forEach(function (elem) {
