@@ -1,3 +1,41 @@
+function locomotive(){
+    gsap.registerPlugin(ScrollTrigger);
+
+    const locoScroll = new LocomotiveScroll({
+        el: document.querySelector(".main"),
+        smooth: true,
+
+        // for tablet smooth
+        tablet: { smooth: true },
+
+        // for mobile
+        smartphone: { smooth: true }
+    });
+    locoScroll.on("scroll", ScrollTrigger.update);
+
+    ScrollTrigger.scrollerProxy(".main", {
+        scrollTop(value) {
+            return arguments.length
+                ? locoScroll.scrollTo(value, 0, 0)
+                : locoScroll.scroll.instance.scroll.y;
+        },
+        getBoundingClientRect() {
+            return {
+                top: 0,
+                left: 0,
+                width: window.innerWidth,
+                height: window.innerHeight
+            };
+        }
+    });
+
+    ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+
+    ScrollTrigger.refresh();
+}
+locomotive()
+
+
 
 function navAnimation(){
     var nav = document.querySelector(".nav-part2")
@@ -98,11 +136,12 @@ function page3Animation() {
 
 
 page3Animation(); 
-// navAnimation();
+navAnimation();
 page2Animation();
 
-
-
+videoAnimation()
+function videoAnimation() {
+    
     var sections = document.querySelectorAll(".part2")
 sections.forEach(function (elem) {
     elem.addEventListener("mouseenter", function () {
@@ -129,4 +168,18 @@ sections1.forEach(function (elem) {
 })
 
 
+}
 
+gsap.to("#btm6-parts h4 ",{
+    x:0,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#btm6-parts",
+        scroller:".main",
+        // markers:true,
+        scrub:true,
+        start:"top 55%",
+        end:"top 8%,",
+        
+    }
+})

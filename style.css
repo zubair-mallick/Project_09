@@ -1063,7 +1063,7 @@ details::marker {
     display: flex;
     align-items: start;
     gap: 5vw;
-    border-top: 0.2px solid #000;
+    border-top: 0.2px solid #C2C2C2;
 
     
 
@@ -1111,8 +1111,100 @@ details::marker {
     background-color: #FFFFFF;
     line-height: 1.8vw;
 }
-.page10{
+.page11{
     height: 100vh;
     width: 100%;
-    background-color: FFFFF;
+    background-color: #ffff;
+}
+.page10{
+    height: 65vh;
+    width: 100%;
+   
+   border-top:0.2px solid #C2C2C2
+
+  
+}
+.scrollAni{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    background-color: red;
+    height: 100%;
+}
+.scrollAni .a1part{
+    width: 31%;
+    height: 100%;
+    background-color: white;
+
+}
+.scrollAni .a2part{
+    width: 26%;
+    height: 100%;
+    background-color: white;
+    border-left: 0.1px solid #C2C2C2;
+
+}
+.scrollAni .a3part{
+    width: 13%;
+    height: 100%;
+    background-color: white;
+    border-left: 0.1px solid #C2C2C2;
+}
+.scrollAni .a4part{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+    border-left: 0.1px solid #C2C2C2;
+}
+.scrollAni .a5part{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+
+}
+#btm6-parts h5{
+    font-size: 1.2vw;
+    font-weight: 100;
+    padding: 1.5vw 0vw;
+    background-color: #fff;
+    color: #000;
+    border-left: 0.1px solid #C2C2C2;
+    padding-bottom: 2.4vw;
+}
+#btm6-parts h4{
+    font-size: 0.9vw;
+    font-weight: 300;
+    padding: 0.7vw 0.8vw;
+    border-radius: 50px;
+    background-color: #000;
+    margin-top: 0.3vw;
+    width: 65%;
+    padding-left: 0.5vw;
+    margin-left: 0.35vw;
+    
+}
+#btm6-parts h4 span{
+    border-radius: 50%;
+    padding: 0.3vw 0.7vw;
+    background-color: #3D3D3D;
+    margin-right: 0.5vw;
+  
+}
+#btm6-parts h4:nth-child(2){
+    transform: translateX(0);
+}
+#btm6-parts h4:nth-child(3){
+    transform: translateX(10%);
+}
+#btm6-parts h4:nth-child(4){
+    transform: translateX(20%);
+}
+#btm6-parts h4:nth-child(5){
+    transform: translateX(30%);
+}
+#btm6-parts h4:nth-child(6){
+    transform: translateX(40%);
+}
+#btm6-parts h4:nth-child(7){
+    transform: translateX(50%);
 }
