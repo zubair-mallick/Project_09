@@ -1178,7 +1178,7 @@ details::marker {
     border-radius: 50px;
     background-color: #000;
     margin-top: 0.3vw;
-    width: 65%;
+   
     padding-left: 0.5vw;
     margin-left: 0.35vw;
     
@@ -1190,6 +1190,17 @@ details::marker {
     margin-right: 0.5vw;
   
 }
+.a2part h4{
+    width: 65%;
+}
+.a3part h4{
+    width: 85%;
+
+} 
+.a4part h4{
+    width: 85%;
+
+} 
 #btm6-parts h4:nth-child(2){
     transform: translateX(0);
 }
