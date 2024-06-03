@@ -9,8 +9,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: hello;
-    color: white;
-    background-color: #000;
+    /* color: white;
+    background-color: #000; */
 }
 body,html{
     height: 100%;
@@ -102,6 +102,7 @@ nav button {
     border-radius: 50px;
     border: none;
     gap: 3vw;
+    color: white;
 }
 /* nav button:hover{
     background-color: ;
@@ -220,6 +221,8 @@ color: white;
     align-items: center;
     border-top: 1px solid #333;
     justify-content: space-between;
+    color: white;
+    background-color: #000;
    
 }
 .page-2-left{
@@ -391,8 +394,9 @@ color: white;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: center; color: white;
+    background-color: #000;
+  
 }
 /* .page3 h5{
     pos
@@ -831,7 +835,7 @@ color: white;
 
 .page7{
     height: 70vh;
-    width:88%;
+    width:100%;
     background-color: #000000;
     display: flex;
     /* align-items: flex-start; */
@@ -841,7 +845,7 @@ color: white;
     flex-direction: column;
      line-height: 1.25;
    /* margin-right:5vw; */
-     margin-left:5vw; 
+     /* margin-left:5vw;  */
      border-bottom: solid 1px #fff;
 }
 .page7 h1 {
@@ -856,19 +860,19 @@ color: white;
 .page8{
     background-color:black;
     min-height: 100vh;
-    width: 95%;
+    width: 100%;
     display: flex;
     padding: 2vw 2vw;
     padding-top: 4vw;
-    margin-top: 2vw;
+    /* margin-top: 2vw; */
     margin-bottom: 12VW;
     border-bottom: 1PX solid white;
     padding-bottom: 10vw;
-    margin: 0 2vw;
+    /* margin: 0 2vw; */
     position: relative;
     align-items: flex-start;
     justify-content: space-between;
-    
+    color: white;
 }
 /* .page8 .eleft{
     
@@ -892,6 +896,7 @@ color: white;
     align-items: center;
     gap: 1.2vw;
     text-transform: uppercase;
+    color: white;
    
 }
 .page8 button i{
@@ -1099,6 +1104,7 @@ details::marker {
     border: none;
     position: sticky;
     top: 15%;
+    color: white;
  
 }
 .page9 button h4{
@@ -1139,7 +1145,8 @@ details::marker {
 .page10{
     height: 65vh;
     width: 100%;
-   
+    color: white;
+    background-color: #000;
    border-top:0.2px solid #C2C2C2
 
   
@@ -1243,11 +1250,13 @@ details::marker {
     position: relative; /* Ensure positioning context for ::before */
     height: 80vh;
     width: 100%;
-    background-color: #ffff;
+    /* background-color: #ffff; */
     background-image: url("b8b128c2-a91f-496a-89e9-8c50d8be45a1.jpg"), url("first.jpg");
     background-size: 120% 120%, 120% 120%; 
     background-position: center; /* Optional: Center the images */
     overflow: hidden; /* Ensure content doesn't overflow */
+    color: white;
+    background-color: #000;
 }
 
 .page11::before {
