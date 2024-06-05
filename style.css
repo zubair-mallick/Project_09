@@ -23,7 +23,7 @@ nav {
     position: fixed;
     /* background-color: rgb(0, 255, 68); */
     display: flex;
-    align-items: flex-start;
+    align-items: start;
     height: 12vh;
     width: 100%;
     padding: 2vw 10.4vw;
@@ -95,25 +95,39 @@ nav button {
     background-color: #0BA34E;
     display: flex;
     align-items: center;
-    padding: 10px 15px;
+    justify-content: space-between;
+    padding: 17px 25px;
     font-size: 0.85vw;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 50px;
     border: none;
-    gap: 3vw;
     color: white;
+    position: relative; 
+    overflow: hidden;
+    background: linear-gradient(to right, #0BA34E 50%, #111111 50%);
+    background-size: 200% 100%;
+    transition: background-position 1.2s ease;
+    
 }
-/* nav button:hover{
-    background-color: ;
-} */
 
 nav button svg {
-    height: 1.5vw;
-      width: 1.5vw;
-    
+    height: 3.6vw;
+    width: 3.6vw;
     background-color: #0BA34E;
+    padding: 1vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 0%;
+    
 }
+
+nav button:hover {
+    background-position: -100% 0;
+}
+
+
+
 
 #nav-bottom {
     width: 79%;
