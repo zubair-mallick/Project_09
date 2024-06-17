@@ -90,17 +90,25 @@ nav h1 {
     background-color: transparent;
 }
 
+.nav-part2 h5 span {
+    font-size: 0.77vw;
+    font-weight: 400;
+    transform: translateY(25px);
+    display: inline-block;
+    background-color: transparent;
+}
+
 nav button {
     width: 14%;
     background-color: #0BA34E;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 17px 25px;
+    padding: 3px 25px;
     font-size: 0.85vw;
     text-transform: uppercase;
     font-weight: 700;
-    border-radius: 50px;
+    border-radius: 80px;
     border: none;
     color: white;
     position: relative; 
@@ -108,15 +116,14 @@ nav button {
     background: linear-gradient(to right, #0BA34E 50%, #111111 50%);
     background-size: 200% 100%;
     transition: background-position 1.2s ease;
-    
 }
 
 nav button svg {
-    height: 3.6vw;
+    height: 30px;
     width: 3.6vw;
     background-color: #0BA34E;
     padding: 1vw;
-    border-radius: 50%;
+    border-radius: 100%;
     position: absolute;
     right: 0%;
     
@@ -535,7 +542,7 @@ color: white;
 }
 
 .page5{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #FFFFFF;
     color: #111;
@@ -1540,5 +1547,9 @@ details::marker {
     font-size: 19vw;
     font-weight: 600;
 }
+
+
+
+
 
 

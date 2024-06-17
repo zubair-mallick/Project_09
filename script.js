@@ -1,3 +1,11 @@
+function getCurrentMediaQuery(px) {
+    if (window.matchMedia(`(max-width: ${px}px)`).matches) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function locomotive(){
     gsap.registerPlugin(ScrollTrigger);
 
@@ -43,7 +51,7 @@ nav.addEventListener('mouseenter',function(){
     let tl = gsap.timeline()
     
     tl.to("#nav-bottom",{
-        height:"21vh",
+        height:"20vw",
         duration:0.4
     })
     tl.to(".nav-part2 h5",{
